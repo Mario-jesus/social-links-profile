@@ -52,6 +52,7 @@ body {
   background-color: var(--grey-800);
   width: 100%;
   max-width: 456px;
+  min-height: 579px;
   padding: 1.5rem;
   border-radius: 0.75rem;
   display: grid;
@@ -108,4 +109,16 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  .social-links-profile__card {
+    min-height: 661px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .social-links-profile__card {
+    max-width: 384px;
+  }
 }
