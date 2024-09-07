@@ -76,7 +76,7 @@ body {
   padding: 1.5rem;
   border-radius: 0.75rem;
   display: grid;
-  grid-template-rows: max-content repeat(3, auto);
+  grid-template-rows: repeat(3, max-content) auto;
   justify-items: center;
   row-gap: 1.5rem;
 }
