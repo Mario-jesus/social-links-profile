@@ -2,33 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <section class="wrapper social-links-profile">
+      <article class="social-links-profile__card">
+        <figure class="social-links-profile__avatar">
+          <img src="assets/images/avatar-jessica.jpeg" alt="avatar-jessica">
+        </figure>
+        <div class="social-links-profile__name-location">
+          <h3 class="text-preset-1">Jessica Randall</h3>
+          <p class="text-preset-2-bold">London, United Kingdom</p>
+        </div>
+        <p class="text-preset-2">"Front-end developer and avid reader."</p>
+        <div class="social-links-profile__links text-preset-2-bold">
+          <a href="#" class="social-links-profile__button">GitHub</a>
+          <a href="#" class="social-links-profile__button">Frontend Mentor</a>
+          <a href="#" class="social-links-profile__button">LinkedIn</a>
+          <a href="#" class="social-links-profile__button">Twitter</a>
+          <a href="#" class="social-links-profile__button">Instagram</a>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="wrapper attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="#">Mario Jesús Arias Hernández</a>.
+    </div>
+  </footer>
 </body>
 </html>
